@@ -28,5 +28,4 @@
 
     ```text
     http://username:password@host:51820
-
     ```
