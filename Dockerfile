@@ -23,7 +23,8 @@ RUN apk update && apk add \
       patch \
       g++ \
       make \
-      luajit-dev
+      luajit-dev \
+      openssl
 
 RUN wget https://github.com/openresty/lua-nginx-module/archive/refs/tags/v$LUA_MODULE_VERSION.tar.gz \
   -O lua-nginx-module-$LUA_MODULE_VERSION.tar.gz \
