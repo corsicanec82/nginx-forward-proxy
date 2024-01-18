@@ -24,7 +24,3 @@
     ```
 
 2. Set up a local connection via a proxy server
-
-    ```text
-    http://username:password@host:51820
-    ```
